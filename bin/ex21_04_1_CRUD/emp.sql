@@ -1,0 +1,19 @@
+--			switch (menu) {
+--			case "사원번호" -> whereCondition += "empno = " + searchData;
+--			case "사원이름" -> whereCondition += "ename = " + single + searchData + single;
+--			case "직급"    -> whereCondition += "job = " + single + searchData + single;
+--			case "매니저"   -> whereCondition += "mgr = " + single + searchData + single;
+--			case "입사일자" -> whereCondition += "hiredate = " + single + searchData + single;
+--			case "급여"    -> whereCondition += "sal = " + searchData;
+--			case "커미션"  -> whereCondition += "comm = " + searchData;
+--			case "부서번호" -> whereCondition += "deptno = " + searchData;
+--			}
+--
+--			String select_sql = "select * from emp where " + whereCondition;
+					
+--select empno as "사원번호", ename as "사원이름", 
+--		job as "직급", mgr as "매니저", hiredate as "입사일자", 
+--		sal as "급여", comm as "커미션", deptno as "부서번호" 
+--from emp where 사원번호 = 7788;
+--
+--select * from emp where empno = 7788;
